@@ -11,14 +11,15 @@ speech-only, so it can't sing).
 
 ## 🎬 Final assembled video (~3:00, 1280×720 / 16:9)
 
-**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260710_042309_47837f64-b826-4387-89a9-395e14884e49.mp4** ← corrected counts (v2)
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260710_043409_3f015682-5787-471d-a59b-83f768396445.mp4** ← corrected counts (v3)
 
 - 18 clips × 10s, assembled in play order.
 - Also available in your Higgsfield account under Generations.
+- **v3 fix:** the "Count 3" clip (0:30–0:40) was re-rendered because Freddy was
+  splitting into a second frog; now a single Freddy.
 - **v2 fix:** clips for numerals 5–10 were re-rendered because the model had
-  added one extra character to each (count didn't match the numeral). The
-  counting segments now show exactly the right number of friends.
-- _Previous (v1, miscounted 5–10): `hf_20260710_033327_66889f9c-...mp4`_
+  added one extra character to each (count didn't match the numeral).
+- _Previous: v2 `hf_20260710_042309_47837f64-...mp4` · v1 `hf_20260710_033327_66889f9c-...mp4`_
 
 ## 🎞️ Individual clips (play order)
 
@@ -29,7 +30,7 @@ Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
 | 1 | Hook | `hf_20260710_032641_68911d3f-ad33-4834-9815-9221792d71aa.mp4` |
 | 2 | Count 1 | `hf_20260710_032756_8be765be-d07b-41ea-b7fb-9066c2d40f7e.mp4` |
 | 3 | Count 2 | `hf_20260710_032650_f5282364-b54f-4fb3-aba0-dfd82e5057af.mp4` |
-| 4 | Count 3 | `hf_20260710_032654_a199777a-223f-424e-9de3-d539aac7457e.mp4` |
+| 4 | Count 3 | `hf_20260710_043138_3f76e472-dbdd-4a1d-8267-71ba646a59dd.mp4` (v3 fixed) |
 | 5 | Count 4 | `hf_20260710_032659_21bb831d-934b-4f75-9031-4c421bceb5a0.mp4` |
 | 6 | Count 5 | `hf_20260710_035022_c5a5bea7-47d1-4284-b023-1c57b2751086.mp4` (v2 fixed) |
 | 7 | Count 6 | `hf_20260710_041956_3cc32e6e-47ae-4756-b286-5822234930cb.mp4` (v2 fixed) |
