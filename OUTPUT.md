@@ -73,7 +73,7 @@ Order: 1 green frog Freddy · 2 blue snail · 3 teal dragonfly · 4 green turtle
 5 yellow duck · 6 orange fish · 7 red bird · 8 brown beaver · 9 yellow firefly ·
 10 white bunny.
 
-**Scene stills (awaiting user spot-check before animation):**
+**Scene stills (user spot-checked and approved):**
 
 | # | Beat | Still job id |
 |---|------|--------------|
@@ -97,4 +97,34 @@ Order: 1 green frog Freddy · 2 blue snail · 3 teal dragonfly · 4 green turtle
 | 18 | Goodnight | `1991b368-9e8d-461b-a48e-b49e1a75e608` |
 
 Stills: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_<timestamp>_<job id>.png`
-Next: animate each approved still (image-to-video, gentle motion) → re-stitch.
+
+## 🎬 v4 FINAL video (~3:00, 1280×720) — locked cast, verified counts
+
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260710_083238_ec1a3539-bce1-4088-8f40-52d2ffcedf55.mp4**
+
+Every clip was animated image-to-video from its approved still, so the cast,
+colors and head-counts are locked from frame one. Supersedes v1–v3.
+
+| # | Beat | Clip job id |
+|---|------|-------------|
+| 1 | Hook | `29f8212b-ad7c-4939-a33f-e9f7813ae20b` |
+| 2 | Count 1 | `34534190-eb93-4582-ade3-4e50a3333168` |
+| 3 | Count 2 | `7c17db2b-6118-45d7-817a-3d885351c919` |
+| 4 | Count 3 | `173ecc66-da51-40f6-a22b-be5e9c6433ec` |
+| 5 | Count 4 | `26752b3a-646d-45a2-bdd6-fa3cd1543186` |
+| 6 | Count 5 | `449970cc-331a-4184-909e-6729340b60db` |
+| 7 | Count 6 | `17c8410d-3e9f-4580-9a05-3ed1725b2dcb` |
+| 8 | Count 7 | `a0cd3df6-6a3b-429d-be28-f71db4a67b78` |
+| 9 | Count 8 | `104b6b36-69dd-43c3-9a5c-b31a9634f7b3` |
+| 10 | Count 9 | `9a324354-9240-42b0-82e3-e851bf5a0826` |
+| 11 | Count 10 | `f2a0e334-f3b1-48bf-af74-a116e0896354` |
+| 12 | Add 4+1=5 | `61bc9a3f-721d-4095-871d-af845683412d` |
+| 13 | Add 7+1=8 | `c0edcdab-1f83-49bd-ba7f-8d5f04b6b811` |
+| 14 | Bond 5+5=10 | `fb3a7b10-2a2e-4a0b-8e04-a84e2a7d2132` |
+| 15 | Finale parade | `c9cf151a-1bf9-4f81-83e5-5aff550397cc` |
+| 16 | Hug + giant 10 | `a31a134f-2a6d-4563-8dfc-5ec649abb781` |
+| 17 | Big jump | `45c995b3-d43e-43a4-ab98-afac96fb0e98` |
+| 18 | Goodnight | `d40867ff-fc55-463f-9def-540ae3d0a10e` |
+
+Clips are silent/ambient — overlay the ~3-minute Suno track from
+`suno-prompt.md` to finish the song video.
