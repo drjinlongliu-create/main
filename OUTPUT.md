@@ -61,3 +61,40 @@ Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
   would be 60 clips (~1,800 credits).
 - **Credits used:** ~540 (18 × 30) for video; the Claymotion style key resolved
   free from the preset.
+
+## 🖼️ v4 pipeline (in progress): locked cast + verified stills
+
+To fix duplicates / wrong animals / color drift at the root, v4 anchors every
+scene to a locked character sheet, and each clip is animated from a
+pre-verified still.
+
+**Cast sheet (locked):** `hf_20260710_045146_7e5a1860-b86b-4cd8-8020-be494a96669f.png`
+Order: 1 green frog Freddy · 2 blue snail · 3 teal dragonfly · 4 green turtle ·
+5 yellow duck · 6 orange fish · 7 red bird · 8 brown beaver · 9 yellow firefly ·
+10 white bunny.
+
+**Scene stills (awaiting user spot-check before animation):**
+
+| # | Beat | Still job id |
+|---|------|--------------|
+| 1 | Hook | `35171805-d8a3-4fa1-875e-f84347f1f2ef` |
+| 2 | Count 1 | `df9091b9-0d83-4a72-aef3-4e92efc2ec71` |
+| 3 | Count 2 | `f82658c0-4d36-41f5-9527-7095ce48be7c` |
+| 4 | Count 3 | `7e2ca9ef-1e1b-4209-8102-e63eb78f540e` (pilot, approved) |
+| 5 | Count 4 | `811bd70f-3e52-4cd2-83b5-29771b4b02ba` (pilot, approved) |
+| 6 | Count 5 | `a0bc9da1-110e-47f3-a0ff-0521bd535e84` |
+| 7 | Count 6 | `5a99d47f-948d-4172-8727-a1295ce743f9` |
+| 8 | Count 7 | `6ea1cb2f-da08-4848-8265-4dcb6d952187` |
+| 9 | Count 8 | `21db840c-7809-4ffe-8cd0-6560f83ae899` |
+| 10 | Count 9 | `83952409-a7d6-4cf0-a8e8-91061779cc6d` |
+| 11 | Count 10 | `65c9e5b6-9eac-48ee-a290-0a8bf49cb541` |
+| 12 | Add 4+1=5 | `ec2ea31f-f0df-430c-832f-f02d6584d013` |
+| 13 | Add 7+1=8 | `bd88243e-f154-4970-a389-8487765e6811` |
+| 14 | Bond 5+5=10 | `3d688942-2cb9-427f-b437-f6f41b1d5ffc` |
+| 15 | Finale parade | `08b5d842-3605-4280-abc3-22ab6ba366a8` |
+| 16 | Hug + giant 10 | `90cfe74a-574f-4192-87cf-b098db83ea2b` |
+| 17 | Big jump | `46671503-022c-4b28-ab6e-61e6cbc22c49` |
+| 18 | Goodnight | `1991b368-9e8d-461b-a48e-b49e1a75e608` |
+
+Stills: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_<timestamp>_<job id>.png`
+Next: animate each approved still (image-to-video, gentle motion) → re-stitch.
