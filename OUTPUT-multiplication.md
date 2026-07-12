@@ -10,7 +10,7 @@ Built with the locked-cast, still-first workflow (see `CLAUDE.md`).
 
 ## 🎬 Final assembled video (~1:40, 1280×720)
 
-**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260712_035933_d88a4bf3-5cde-407a-8582-866645ed5249.mp4** ← v2 (2×7 count fixed)
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260712_041445_7cf7fad5-4760-4fb9-93c6-1a3b3585ec6f.mp4** ← v3 (2×7 and 2×10 counts fixed)
 
 10 clips × 10s, 2×1 → 2×10, in play order. Also in your Higgsfield Generations.
 
@@ -29,7 +29,7 @@ Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
 | 7 | 2×7=14 | `hf_20260712_035734_4e68d574-9d30-44de-9028-c9b4f687c59b.mp4` | 4e68d574 (v2: fixed to 7 pads / 14 frogs; still `8269d09b`) |
 | 8 | 2×8=16 | `hf_20260711_064803_4eca5842-012c-492a-be1e-0485af082d23.mp4` | 4eca5842 |
 | 9 | 2×9=18 | `hf_20260711_065134_4624022b-c510-44d1-b67b-1d9a2973ae75.mp4` | 4624022b (re-rendered; first take hit a false NSFW flag) |
-| 10 | 2×10=20 | `hf_20260711_064812_3d073694-eb79-4de9-b8a6-8bd526a15993.mp4` | 3d073694 |
+| 10 | 2×10=20 | `hf_20260712_041244_c60cfb2c-b943-4a85-9d1f-6e0d6554eeec.mp4` | c60cfb2c (v3: fixed to 10 pads / 20 frogs; still `e47f03c6`) |
 
 ## Stills (verified, used as animation frames)
 Reference + 18 stills were generated; only 1–10 were animated (video ends at
