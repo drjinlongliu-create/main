@@ -8,11 +8,11 @@ Built with the locked-cast, still-first workflow (see `CLAUDE.md`).
   (anchored to the series Freddy `7e5a1860`).
 - Clips are **silent / ambient** — overlay a Suno track if you want a sung version.
 
-## 🎬 Final assembled video
-> ⏳ Assembly pending — the Higgsfield MCP server was flapping (repeated
-> connect/disconnect) and killed the stitch call mid-request. All 10 clips are
-> rendered; the stitch just needs one stable server window. Will update this
-> line with the final URL once it completes.
+## 🎬 Final assembled video (~1:40, 1280×720)
+
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260712_034831_9609d0a2-f236-4703-b44c-cef5f10ff7ac.mp4**
+
+10 clips × 10s, 2×1 → 2×10, in play order. Also in your Higgsfield Generations.
 
 ## 🎞️ The 10 clips (play order)
 
