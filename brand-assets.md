@@ -37,8 +37,23 @@ YouTube banner: recommended upload **2048×1152 minimum** (safe area 1235×338 f
 
 Layout: owl waving on the right, large open title panel on the left (sample text "TWINKLE TWINKLE"), logo badge top-left. Swap the title text per episode; 1376×768 exceeds YouTube's 1280×720 thumbnail spec.
 
+## Launch kit extras
+
+### Transparent-background logo (for video watermark / overlays)
+- **Logo A cutout (transparent PNG)** — job `8aadb195-2071-4824-8a32-bb06047bb195`
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_221136_8aadb195-2071-4824-8a32-bb06047bb195.png
+
+### Ready-to-upload episode thumbnails (16:9, anchored to Logo A)
+- **ABC Song** — job `54f2eb75-4abe-410f-8a4a-37d8747b09c2`, 1376×768
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_221143_54f2eb75-4abe-410f-8a4a-37d8747b09c2.png
+- **Wheels on the Bus** — job `cab7cc05-1dd7-4d70-89be-17a53eef7e4b`, 1376×768
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_221147_cab7cc05-1dd7-4d70-89be-17a53eef7e4b.png
+
+See **`LAUNCH.md`** for the full channel setup checklist.
+
 ## To-do / optional next steps
 - [x] Pick final logo (A vs B) — **A locked**, approved by user.
 - [x] Upscale banner for YouTube upload — done, 4096×2294 (job `1e5b8bb3`).
-- [ ] Optional transparent-background logo cutout (`remove_background`) for overlays.
-- [ ] Optional: re-generate thumbnail with real episode titles as needed.
+- [x] Transparent-background logo cutout — done (job `8aadb195`).
+- [x] Example thumbnails with real episode titles — ABC Song + Wheels on the Bus.
+- [ ] Optional: animated channel trailer (Higgsfield `gemini_omni` from a still).
