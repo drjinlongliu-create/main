@@ -4,6 +4,18 @@ Series Freddy anchor: 7e5a1860-b86b-4cd8-8020-be494a96669f
 Style: Claymotion (preset 1de0f39e-c602-4b00-b54a-38440c7f63f7)
 Scope: 5 clips — hook, 2÷2=1, 4÷2=2, 6÷3=2, finale
 
+## CONCEPT REVISION (v2): share berries between FRIENDS, not plates
+Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
+Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
+v2 stills (pending QA → then re-animate → re-stitch):
+1. hook (Freddy + 3 friends waiting) — 364d1ea4-6998-4e6f-962f-d998eec19ea4
+2. 2÷2=1 (snail+dragonfly, 1 each)  — 28d77e12-ffd3-4594-a6ec-fb4506fe976b
+3. 4÷2=2 (snail+dragonfly, 2 each)  — 21949bae-85d5-473c-984e-9d7daa99260a
+4. 6÷3=2 (snail+dragonfly+turtle,2) — db27c62b-ebb0-49ee-a90a-6263c2c8cbab
+5. finale (friends w/ equal shares)  — 7ca8f529-e7d6-484a-8b22-a961fb50f136
+
+--- v1 (plates concept, superseded) below ---
+
 ## Reference sheet (Phase 1 gate)
 - job: 6eb77916-f6ff-470f-aca1-21d7223ebdeb  (nano_banana_pro, anchored to series Freddy)  [DONE, PENDING USER APPROVAL]
   url: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_223151_6eb77916-f6ff-470f-aca1-21d7223ebdeb.png
