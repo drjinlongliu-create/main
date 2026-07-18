@@ -40,7 +40,15 @@ Clip URLs (base https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrT
 3 4÷2=2  hf_20260718_230531_d13d1eb0-35b6-4029-9179-0d4387e23d5d.mp4
 4 6÷2=3  hf_20260718_230534_2a12455e-d77b-4ddc-8370-d98201651a08.mp4
 5 finale hf_20260718_230547_f060fd45-f994-4840-b0f6-4cc19d19ec47.mp4
-Assembly jobs (backend slow): 09697315-686b-4250-90d2-683957a5534e, 6a717643-cd3b-4d84-a1e1-ea8299095b40 [PENDING]
+Assembly jobs (backend hung ~25min, ABANDONED): 09697315, 6a717643
+
+### v4 FIXES (user QA on v3 clips):
+- Hook → 2 friends only (snail+dragonfly). New still: 32a7a140-22c2-4109-b425-f8070523b0b2
+- Clip2 end → basket fully empty (was 1 left). New end still: e1599641-d318-4fed-a06d-14b7545d6bee
+    clip2 new pair: start d5a45a4f → end e1599641
+- Clip3 → Freddy color drifted mid-clip; re-run seedance start 1d283d58 → end 76b19889 with color-lock
+- Clip4 (6÷2=3) unchanged (2a12455e), finale unchanged (f060fd45)
+- NOTE: finale still shows 3 friends; hook now 2 — flagged to user.
 
 --- v1 (plates concept, superseded) below ---
 
