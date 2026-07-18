@@ -65,6 +65,13 @@ v4 clip URLs (base https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlC
 4 6÷2=3  hf_20260718_230534_2a12455e-d77b-4ddc-8370-d98201651a08.mp4
 5 finale hf_20260718_230547_f060fd45-f994-4840-b0f6-4cc19d19ec47.mp4
 
+### FINAL STITCH STATUS: Higgsfield backend severely backlogged (2026-07-18 late).
+explainer_video jobs queued (free), stuck 20-30min+ today:
+  943e62df-1a55-40cb-92eb-d0495dbe7d9e (full 5-clip v4)
+  f4a0b5ae-25da-4e13-a6e0-9a1107e45444 (3 seedance clips, diagnostic)
+No local ffmpeg; CDN blocked by egress proxy (403) — cannot assemble outside Higgsfield.
+All 5 v4 clips ARE rendered & delivered; final MP4 pending queue drain. Retry explainer_video when backend recovers.
+
 --- v1 (plates concept, superseded) below ---
 
 ## Reference sheet (Phase 1 gate)
