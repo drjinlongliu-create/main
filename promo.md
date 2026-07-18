@@ -14,6 +14,18 @@ YouTube accepts it as-is (it wants ≥1280×720, 16:9).
 **▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260710_084001_6271f8f6-698c-4b84-befd-ab7ff91b44cd.png**
 (job id `6271f8f6-698c-4b84-befd-ab7ff91b44cd`)
 
+### 🔁 Recreated thumbnails — "FREDDY COUNTS TO 10!" (anchored to locked cast sheet `7e5a1860`)
+
+Claymation, 16:9 (1376×768), Freddy huge in foreground + rainbow clay numerals 1–10,
+title bubble "FREDDY COUNTS TO 10!". Anchored to the locked character sheet so species/colors match.
+
+- **Option 1** — job `918df5a4-a023-4d98-81f7-64c4a4b3d1f7`
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_221659_918df5a4-a023-4d98-81f7-64c4a4b3d1f7.png
+- **Option 2** — job `9b11b356-6e14-4e7f-939f-51d7091183bf`
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_221659_9b11b356-6e14-4e7f-939f-51d7091183bf.png
+
+_User spot-check pending: confirm title text spelling + no duplicate Freddy / no off-sheet animals before publishing._
+
 **Thumbnail tips:** keep the title text OFF the bottom-right corner if you
 overlay a duration badge; test at phone size — Freddy's face should still read.
 
