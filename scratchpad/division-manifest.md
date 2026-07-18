@@ -32,7 +32,15 @@ All 3 math clips use 2 friends (snail+dragonfly). Keyframe pairs:
 3. 4÷2=2  — d13d1eb0-35b6-4029-9179-0d4387e23d5d  (seedance_2_0, 1d283d58→76b19889)
 4. 6÷2=3  — 2a12455e-d77b-4ddc-8370-d98201651a08  (seedance_2_0, d183513e→f6c40cdc)
 5. finale — f060fd45-f994-4840-b0f6-4cc19d19ec47  (gemini_omni, from 7ca8f529)
-Play order for explainer_video: 8ef6c2d9, 1df7f885, d13d1eb0, 2a12455e, f060fd45
+Play order for explainer_video: 93aebe54, 1df7f885, d13d1eb0, 2a12455e, f060fd45
+ALL 5 CLIPS COMPLETED. (clip2/clip4 originals finished; redundant resubmits a023b3c2/922edf4d ignored.)
+Clip URLs (base https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/):
+1 hook   hf_20260718_230629_93aebe54-6307-4f65-9394-c09bb81e6687.mp4
+2 2÷2=1  hf_20260718_230527_1df7f885-960e-470c-aa32-524871a36c92.mp4
+3 4÷2=2  hf_20260718_230531_d13d1eb0-35b6-4029-9179-0d4387e23d5d.mp4
+4 6÷2=3  hf_20260718_230534_2a12455e-d77b-4ddc-8370-d98201651a08.mp4
+5 finale hf_20260718_230547_f060fd45-f994-4840-b0f6-4cc19d19ec47.mp4
+Assembly jobs (backend slow): 09697315-686b-4250-90d2-683957a5534e, 6a717643-cd3b-4d84-a1e1-ea8299095b40 [PENDING]
 
 --- v1 (plates concept, superseded) below ---
 
