@@ -48,7 +48,15 @@ Assembly jobs (backend hung ~25min, ABANDONED): 09697315, 6a717643
     clip2 new pair: start d5a45a4f → end e1599641
 - Clip3 → Freddy color drifted mid-clip; re-run seedance start 1d283d58 → end 76b19889 with color-lock
 - Clip4 (6÷2=3) unchanged (2a12455e), finale unchanged (f060fd45)
-- NOTE: finale still shows 3 friends; hook now 2 — flagged to user.
+- NOTE: finale still shows 3 friends; hook now 2 — user said "go", leaving finale as full-gang.
+
+### v4 FINAL play order (re-renders submitted):
+1. hook   — 62749bfd-c2e2-44f5-acd2-1a7e81d6a72d  (gemini, from 32a7a140, 2 friends)
+2. 2÷2=1  — ca6db1a7-7554-424e-8870-bee4ebc95a21  (seedance, d5a45a4f→e1599641 empty basket)
+3. 4÷2=2  — 584464fd-e6c0-408a-9d68-27cb9c49bfe8  (seedance, 1d283d58→76b19889, color-lock)
+4. 6÷2=3  — 2a12455e-d77b-4ddc-8370-d98201651a08  (unchanged)
+5. finale — f060fd45-f994-4840-b0f6-4cc19d19ec47  (unchanged)
+explainer_video order: 62749bfd, ca6db1a7, 584464fd, 2a12455e, f060fd45
 
 --- v1 (plates concept, superseded) below ---
 
