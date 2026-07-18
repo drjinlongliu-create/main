@@ -18,8 +18,10 @@ v2 stills (pending QA → then re-animate → re-stitch):
 Math clip 4 changed to 6÷2=3 (2 friends, 3 each) per user.
 All 3 math clips use 2 friends (snail+dragonfly). Keyframe pairs:
 - clip2 2÷2=1: start d5a45a4f-5b76-43fd-b370-cc0179b2ec81 → end 28d77e12-ffd3-4594-a6ec-fb4506fe976b
-- clip3 4÷2=2: start 6b986488-3d62-4bb9-9612-2db049b0bf8b → end 21949bae-85d5-473c-984e-9d7daa99260a
-- clip4 6÷2=3: start 7e2f482d-3bfc-4b48-87c5-fdd3d368e49f → end f6c40cdc-8385-4a55-8bdd-a817928e8474
+- clip3 4÷2=2: start 1d283d58-0a1a-4c9f-a2e1-4b023feeaa56 (v2, 4 in basket) → end 76b19889-b7be-4631-9080-9e29c2ba795a (v2, empty basket)
+    [superseded: start 6b986488 had >4; end 21949bae had berries left in basket]
+- clip4 6÷2=3: start d183513e-5991-4fd1-8f7d-cdd36b8111d0 (v2, 6 in basket) → end f6c40cdc-8385-4a55-8bdd-a817928e8474
+    [superseded: start 7e2f482d had >6]
 - hook: single-frame gemini_omni from 364d1ea4 (friends gather)
 - finale: single-frame gemini_omni from 7ca8f529 (KEEP)
 [new start/end stills PENDING render + QA]
