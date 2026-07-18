@@ -15,7 +15,12 @@ Scope: 5 clips — hook, 2÷2=1, 4÷2=2, 6÷3=2, finale
 4. 6÷3=2 — e3a6a381-8315-4c59-8297-3814455d3f9f [DONE, pending approval]
 5. finale — 1cbb47db-0d19-4229-b07e-5734054b1b99 [DONE, pending approval]
 
-## Clips (Phase 3) — TBD
-1. — 2. — 3. — 4. — 5. —
+## Clips (Phase 3) — gemini_omni, 10s, 720p, image-to-video from approved stills
+1. hook   — 473b7ff6-a864-4696-a88e-247e1718452e  (from still 53d05ddf)
+2. 2÷2=1  — a9719dc4-c070-44c4-941b-220f80059e6d  (from still 2af409f4)
+3. 4÷2=2  — c88fecee-879f-4709-b6c2-87788af9623c  (from still bc0496bf)
+4. 6÷3=2  — 1530ecf6-c0d1-40c3-a7b4-9bd51df00b0b  (from still e3a6a381)
+5. finale — 114471c5-629f-44d6-a81a-964ee0caf9a7  (from still 1cbb47db)
+Play order for explainer_video: 473b7ff6, a9719dc4, c88fecee, 1530ecf6, 114471c5
 
 ## Final assembly (Phase 4) — TBD
