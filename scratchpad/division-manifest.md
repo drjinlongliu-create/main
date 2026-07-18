@@ -14,6 +14,16 @@ v2 stills (pending QA → then re-animate → re-stitch):
 4. 6÷3=2 (snail+dragonfly+turtle,2) — db27c62b-ebb0-49ee-a90a-6263c2c8cbab
 5. finale (friends w/ equal shares)  — 7ca8f529-e7d6-484a-8b22-a961fb50f136
 
+### v3 — SHOW THE HAND-OUT via start→end keyframe interpolation (seedance_2_0)
+Math clip 4 changed to 6÷2=3 (2 friends, 3 each) per user.
+All 3 math clips use 2 friends (snail+dragonfly). Keyframe pairs:
+- clip2 2÷2=1: start d5a45a4f-5b76-43fd-b370-cc0179b2ec81 → end 28d77e12-ffd3-4594-a6ec-fb4506fe976b
+- clip3 4÷2=2: start 6b986488-3d62-4bb9-9612-2db049b0bf8b → end 21949bae-85d5-473c-984e-9d7daa99260a
+- clip4 6÷2=3: start 7e2f482d-3bfc-4b48-87c5-fdd3d368e49f → end f6c40cdc-8385-4a55-8bdd-a817928e8474
+- hook: single-frame gemini_omni from 364d1ea4 (friends gather)
+- finale: single-frame gemini_omni from 7ca8f529 (KEEP)
+[new start/end stills PENDING render + QA]
+
 --- v1 (plates concept, superseded) below ---
 
 ## Reference sheet (Phase 1 gate)
