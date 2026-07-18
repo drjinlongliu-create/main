@@ -57,6 +57,13 @@ Assembly jobs (backend hung ~25min, ABANDONED): 09697315, 6a717643
 4. 6÷2=3  — 2a12455e-d77b-4ddc-8370-d98201651a08  (unchanged)
 5. finale — f060fd45-f994-4840-b0f6-4cc19d19ec47  (unchanged)
 explainer_video order: 62749bfd, ca6db1a7, 584464fd, 2a12455e, f060fd45
+ALL 5 v4 CLIPS COMPLETE. (redundant retries a06ead1e/694878bb ignored.)
+v4 clip URLs (base https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/):
+1 hook   hf_20260718_235004_62749bfd-c2e2-44f5-acd2-1a7e81d6a72d.mp4
+2 2÷2=1  hf_20260718_235009_ca6db1a7-7554-424e-8870-bee4ebc95a21.mp4
+3 4÷2=2  hf_20260718_235013_584464fd-e6c0-408a-9d68-27cb9c49bfe8.mp4
+4 6÷2=3  hf_20260718_230534_2a12455e-d77b-4ddc-8370-d98201651a08.mp4
+5 finale hf_20260718_230547_f060fd45-f994-4840-b0f6-4cc19d19ec47.mp4
 
 --- v1 (plates concept, superseded) below ---
 
