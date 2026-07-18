@@ -16,11 +16,13 @@ Scope: 5 clips — hook, 2÷2=1, 4÷2=2, 6÷3=2, finale
 5. finale — 1cbb47db-0d19-4229-b07e-5734054b1b99 [DONE, pending approval]
 
 ## Clips (Phase 3) — gemini_omni, 10s, 720p, image-to-video from approved stills
-1. hook   — 473b7ff6-a864-4696-a88e-247e1718452e  (from still 53d05ddf)
-2. 2÷2=1  — a9719dc4-c070-44c4-941b-220f80059e6d  (from still 2af409f4)
-3. 4÷2=2  — c88fecee-879f-4709-b6c2-87788af9623c  (from still bc0496bf)
-4. 6÷3=2  — 1530ecf6-c0d1-40c3-a7b4-9bd51df00b0b  (from still e3a6a381)
-5. finale — 114471c5-629f-44d6-a81a-964ee0caf9a7  (from still 1cbb47db)
-Play order for explainer_video: 473b7ff6, a9719dc4, c88fecee, 1530ecf6, 114471c5
+NOTE: first batch (473b7ff6, a9719dc4, c88fecee, 1530ecf6, 114471c5) ALL FAILED
+— prompt landed empty; gemini_omni needs prompt INSIDE params. Resubmitted below.
+1. hook   — f6a87555-d22d-4247-bdc0-824e4d47d1c1  (from still 53d05ddf)
+2. 2÷2=1  — 4e27bb5c-7a11-4722-856b-29e6a205b989  (from still 2af409f4)
+3. 4÷2=2  — 9277ef5e-fb2b-4d25-a1ab-9e7b1d8f09c9  (from still bc0496bf)
+4. 6÷3=2  — 21063464-d6a4-4619-8b2c-a4cc230511e9  (from still e3a6a381)
+5. finale — 99b99fae-36c1-4d70-9cac-72ea98ff482d  (from still 1cbb47db)
+Play order for explainer_video: f6a87555, 4e27bb5c, 9277ef5e, 21063464, 99b99fae
 
 ## Final assembly (Phase 4) — TBD
