@@ -25,4 +25,13 @@ NOTE: first batch (473b7ff6, a9719dc4, c88fecee, 1530ecf6, 114471c5) ALL FAILED
 5. finale — 99b99fae-36c1-4d70-9cac-72ea98ff482d  (from still 1cbb47db)
 Play order for explainer_video: f6a87555, 4e27bb5c, 9277ef5e, 21063464, 99b99fae
 
-## Final assembly (Phase 4) — TBD
+## Final assembly (Phase 4)
+- explainer_video job: b03f3138-70b7-41d1-b671-6364c24749ea  (1280x720, 5 blocks, DONE)
+  FINAL: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_224538_b03f3138-70b7-41d1-b671-6364c24749ea.mp4
+
+### All 5 clips COMPLETED (base URL: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/)
+1. hook   hf_20260718_224347_f6a87555-d22d-4247-bdc0-824e4d47d1c1.mp4
+2. 2÷2=1  hf_20260718_224416_4e27bb5c-7a11-4722-856b-29e6a205b989.mp4
+3. 4÷2=2  hf_20260718_224417_9277ef5e-fb2b-4d25-a1ab-9e7b1d8f09c9.mp4
+4. 6÷3=2  hf_20260718_224421_21063464-d6a4-4619-8b2c-a4cc230511e9.mp4
+5. finale hf_20260718_224425_99b99fae-36c1-4d70-9cac-72ea98ff482d.mp4
