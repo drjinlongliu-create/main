@@ -27,7 +27,7 @@ All 3 math clips use 2 friends (snail+dragonfly). Keyframe pairs:
 [stills APPROVED]
 
 ### v3 CLIPS (submitted, play order):
-1. hook   — 8ef6c2d9-4f76-4f41-99e2-e95f4d12976c  (gemini_omni, from 364d1ea4)
+1. hook   — 93aebe54-6307-4f65-9394-c09bb81e6687  (gemini_omni, from 364d1ea4; first try 8ef6c2d9 failed transient)
 2. 2÷2=1  — 1df7f885-960e-470c-aa32-524871a36c92  (seedance_2_0, d5a45a4f→28d77e12)
 3. 4÷2=2  — d13d1eb0-35b6-4029-9179-0d4387e23d5d  (seedance_2_0, 1d283d58→76b19889)
 4. 6÷2=3  — 2a12455e-d77b-4ddc-8370-d98201651a08  (seedance_2_0, d183513e→f6c40cdc)
