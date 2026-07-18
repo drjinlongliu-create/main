@@ -49,6 +49,20 @@ Layout: owl waving on the right, large open title panel on the left (sample text
 - **Wheels on the Bus** — job `cab7cc05-1dd7-4d70-89be-17a53eef7e4b`, 1376×768
   https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_221147_cab7cc05-1dd7-4d70-89be-17a53eef7e4b.png
 
+### Video watermark (transparent PNG, simplified owl icon — reads at small size)
+Purpose-built as a YouTube video watermark / branding overlay (recommended 150×150,
+transparent). Simplified single owl-head icon (no text) so it stays legible in a video corner.
+- **Watermark Option 1** — job `3f520e40-7eab-4dad-b057-92fd0fb91636` (transparent PNG)
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_222947_3f520e40-7eab-4dad-b057-92fd0fb91636.png
+- **Watermark Option 2** — job `93a49835-2857-4826-b08f-8e0ce8af392e` (transparent PNG)
+  https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_222948_93a49835-2857-4826-b08f-8e0ce8af392e.png
+
+> Two watermark styles exist: this **simplified owl icon** (best for the small YouTube
+> corner watermark) and the earlier **full-logo cutout** `8aadb195` (badge + text, better
+> for larger end-screen / overlay use where text is readable).
+
+To add in YouTube: Studio → Customize channel → Branding → Video watermark → upload.
+
 See **`LAUNCH.md`** for the full channel setup checklist.
 
 ## To-do / optional next steps
