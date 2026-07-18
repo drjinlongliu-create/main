@@ -8,12 +8,12 @@ Scope: 5 clips — hook, 2÷2=1, 4÷2=2, 6÷3=2, finale
 - job: 6eb77916-f6ff-470f-aca1-21d7223ebdeb  (nano_banana_pro, anchored to series Freddy)  [DONE, PENDING USER APPROVAL]
   url: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_223151_6eb77916-f6ff-470f-aca1-21d7223ebdeb.png
 
-## Stills (Phase 2) — TBD
-1. hook —
-2. 2÷2=1 —
-3. 4÷2=2 —
-4. 6÷3=2 —
-5. finale —
+## Stills (Phase 2)
+1. hook — 53d05ddf-d77b-464a-a2f0-99dee6b5d43c [DONE, pilot, pending approval]
+2. 2÷2=1 — 2af409f4-7457-4607-a09b-2ecbb372de5f [DONE, pilot, pending approval]
+3. 4÷2=2 — TBD (awaiting pilot approval)
+4. 6÷3=2 — TBD
+5. finale — TBD
 
 ## Clips (Phase 3) — TBD
 1. — 2. — 3. — 4. — 5. —
