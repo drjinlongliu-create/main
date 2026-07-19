@@ -70,7 +70,16 @@ explainer_video jobs queued (free), stuck 20-30min+ today:
   943e62df-1a55-40cb-92eb-d0495dbe7d9e (full 5-clip v4)
   f4a0b5ae-25da-4e13-a6e0-9a1107e45444 (3 seedance clips, diagnostic)
 No local ffmpeg; CDN blocked by egress proxy (403) — cannot assemble outside Higgsfield.
-All 5 v4 clips ARE rendered & delivered; final MP4 pending queue drain. Retry explainer_video when backend recovers.
+All 5 v4 clips ARE rendered & delivered; final MP4 pending queue drain.
+
+### ROOT CAUSE CONFIRMED (diagnostic): explainer_video CANNOT ingest seedance_2_0 clips.
+- 2-gemini stitch [hook,finale] ec6d7096 COMPLETED in ~45s (proves backend up + gemini clips fine).
+- Any stitch containing seedance clips hangs indefinitely (943e62df, f4a0b5ae, both v3 stitches).
+- Plan: re-encode the 3 seedance clips via topaz upscale -> stitchable, then explainer_video all 5.
+  upscale test job (clip2): f9f53ce8-b190-4535-b80b-c507fa738b4e [QUEUED behind backlog]
+- Fallback if re-encode doesn't stitch: re-animate 3 sharing clips with gemini_omni from START stills
+  (d5a45a4f/1d283d58/d183513e) with hand-out prompt — stitches, but gemini counts less exact.
+- Backend is globally backlogged tonight; heavy jobs queue for a long time. Resume when recovered.
 
 --- v1 (plates concept, superseded) below ---
 
