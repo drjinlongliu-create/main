@@ -1,72 +1,60 @@
 # ➗ Generated Media — "Sharing With Freddy" (Division Intro)
 
 Claymotion division intro for a 5-year-old: **division = sharing berries fairly
-between friends**. Freddy starts with a basket of berries and hands them out so
-each friend gets an equal share. ~50s, 5 clips.
+between friends**. Freddy shares berries so each friend gets an equal share.
+~50s, 5 clips, silent/ambient (overlay the Suno track).
 
 Built with the locked-cast, still-first workflow (see `CLAUDE.md`).
-Style: **Claymotion**. Anchored to the series Freddy (`7e5a1860`) so he matches
-the counting + multiplication videos.
+Style: **Claymotion**. Anchored to the series Freddy (`7e5a1860`).
+Cast: Freddy (green frog) shares with the **blue snail** + **teal dragonfly**.
 
-- **Division reference sheet:** `6eb77916-f6ff-470f-aca1-21d7223ebdeb`
-  (Freddy + berries, anchored to the series Freddy).
-- Cast used: Freddy (green frog) shares among the **blue snail** + **teal
-  dragonfly** (÷2 clips); the finale adds the **green turtle**.
-- Clips are **silent / ambient** — overlay the Suno track
-  (`suno-prompt-division.md`) for a sung version.
+## 🎬 FINAL assembled video (~50s, 1280×720)
 
-Base URL: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260719_232310_a7076f5b-c8a7-43b2-af3a-d784740f53a9.mp4**
 
-## 🎞️ Final clips (play order) — the sharing story
+5 clips × 10s, in play order. Assembly job `a7076f5b-c8a7-43b2-af3a-d784740f53a9`.
 
-| # | Beat | Math | Clip file | Job id |
-|---|------|------|-----------|--------|
-| 1 | Hook — Freddy + 2 friends, full basket | — | `hf_20260718_235004_62749bfd-c2e2-44f5-acd2-1a7e81d6a72d.mp4` | 62749bfd |
-| 2 | Share between 2 friends → 1 each | 2 ÷ 2 = 1 | `hf_20260718_235009_ca6db1a7-7554-424e-8870-bee4ebc95a21.mp4` | ca6db1a7 |
-| 3 | Share between 2 friends → 2 each | 4 ÷ 2 = 2 | `hf_20260718_235013_584464fd-e6c0-408a-9d68-27cb9c49bfe8.mp4` | 584464fd |
-| 4 | Share between 2 friends → 3 each | 6 ÷ 2 = 3 | `hf_20260718_230534_2a12455e-d77b-4ddc-8370-d98201651a08.mp4` | 2a12455e |
-| 5 | Finale — friends cheer w/ equal shares | — | `hf_20260718_230547_f060fd45-f994-4840-b0f6-4cc19d19ec47.mp4` | f060fd45 |
+## 🎞️ The 5 clips (play order)
 
-**How the clips were made**
-- Hook + finale: `gemini_omni` single-frame animation from approved stills.
-- The 3 sharing clips: `seedance_2_0` **start→end interpolation** — the START
-  still shows the basket holding exactly N berries with friends empty-handed;
-  the END still shows the basket empty with each friend's equal share. Seedance
-  animates the hand-out in between, so both counts stay locked to approved stills.
+Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
 
-## 🧩 Stitch-ready (re-encoded) versions of the sharing clips
-`explainer_video` can't ingest raw seedance clips (codec/container mismatch —
-a stitch containing one hangs; an all-gemini stitch completes in ~45s). Fix:
-re-encode the 3 seedance clips through a topaz pass, which makes them stitchable.
+| # | Beat | Math | Clip file | Job id | From still |
+|---|------|------|-----------|--------|-----------|
+| 1 | Hook — Freddy + 2 friends, basket w/ 2 berries | — | `hf_20260719_222654_c6c4ff1d-96e4-4ed8-a9d5-c4f5bea45ae0.mp4` | c6c4ff1d | 41c67cc9 |
+| 2 | Share between 2 friends → 1 each | 2 ÷ 2 = 1 | `hf_20260719_222704_e2c75872-732f-4d39-bed7-0f49782284d9.mp4` | e2c75872 | e1599641 |
+| 3 | Share between 2 friends → 2 each | 4 ÷ 2 = 2 | `hf_20260719_222708_8a63242d-56ba-4386-9737-a58992070a47.mp4` | 8a63242d | 76b19889 |
+| 4 | Share between 2 friends → 3 each | 6 ÷ 2 = 3 | `hf_20260719_222713_8e678ad7-daf1-48a9-af74-105607fd7cf1.mp4` | 8e678ad7 | f6c40cdc |
+| 5 | Finale — 2 friends cheer w/ equal shares | — | `hf_20260719_222717_bca9861f-6561-4eb1-92b4-78ba240567d1.mp4` | bca9861f | bc1a7a7e |
 
-| Sharing clip | Raw (seedance) | Re-encoded (stitch-ready) |
-|---|---|---|
-| 2 ÷ 2 = 1 | ca6db1a7 | `f9f53ce8-b190-4535-b80b-c507fa738b4e` |
-| 4 ÷ 2 = 2 | 584464fd | `8717da60-8844-41a8-aaf7-2fdbdcc669dc` |
-| 6 ÷ 2 = 3 | 2a12455e | `62e15cb9-2ff0-41b4-8e17-c6e69e4771d2` |
-
-**Final assembly command (once Higgsfield backend is healthy):**
-```
-explainer_video(width:1280, height:720, items:[
-  62749bfd (hook),
-  f9f53ce8 (2÷2 re-enc),
-  8717da60 (4÷2 re-enc),
-  62e15cb9 (6÷2 re-enc),
-  f060fd45 (finale)
-])
-```
-Verified working: a 2-clip test [hook + f9f53ce8] stitched in ~60s.
-
-## ⚠️ Final stitch status
-As of the last session the final 5-clip stitch was **blocked by a prolonged
-Higgsfield backend outage** — assembly jobs hung for hours and new submissions
-returned HTTP 429 (job quota saturated by the hung jobs). All 5 clips are
-rendered and the re-encodes are done; only the free `explainer_video` join
-remains. **Re-run the assembly command above when the backend recovers.**
+**How the clips were made (v5, final):** every clip is `gemini_omni` single-frame
+still-motion from an approved still. This locks Freddy's colour, the background,
+and exact berry counts (no drift, no duplication) and stitches natively — the
+approach we landed on after the seedance hand-out clips kept drifting AND
+couldn't be stitched without a re-encode.
 
 ## Locked reference stills (verified)
-Reference sheet `6eb77916`. Sharing-clip keyframes:
-- 2÷2: start `d5a45a4f`, end `28d77e12` (v2) → empty-basket end `e1599641` (v4)
-- 4÷2: start `1d283d58`, end `76b19889`
-- 6÷2: start `d183513e`, end `f6c40cdc`
-- Hook still `32a7a140` (2 friends); finale still `7ca8f529` (3 friends).
+Reference sheet `6eb77916`. Clip stills:
+- Hook `41c67cc9` (Freddy + basket w/ exactly 2 berries + snail + dragonfly)
+- 2÷2 `e1599641` (empty basket, each friend 1 berry, eq "2 ÷ 2 = 1")
+- 4÷2 `76b19889` (each friend 2 berries, eq "4 ÷ 2 = 2")
+- 6÷2 `f6c40cdc` (each friend 3 berries, eq "6 ÷ 2 = 3")
+- Finale `bc1a7a7e` (Freddy cheering + snail + dragonfly, each 3 berries, confetti)
+
+## Audio
+Clips are silent/ambient by design. Overlay the Suno track from
+`suno-prompt-division.md` in any editor for the sung version.
+
+## Notes / lessons this build added
+- `explainer_video` **cannot ingest raw seedance_2_0 clips** (a stitch
+  containing one hangs; all-gemini stitches in seconds). If you must stitch
+  seedance output, re-encode it first (topaz upscale pass).
+- `gemini_omni` needs the prompt INSIDE `params` (empty prompt → the job fails).
+- A prolonged Higgsfield backend outage hung early stitch jobs and saturated the
+  video-job quota (HTTP 429); the final all-gemini render/stitch went through
+  once the quota freed.
+
+## To re-stitch / extend
+`explainer_video(width:1280, height:720, items:[c6c4ff1d, e2c75872, 8a63242d,
+8e678ad7, bca9861f])`. Extend (8÷2=4, 9÷3=3, 10÷2=5): make a finished-share
+still (empty basket, each friend's equal pile + equation), animate with
+`gemini_omni`, add its clip id to the ordered list.

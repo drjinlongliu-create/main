@@ -27,6 +27,10 @@ Scheduled retry: trig_019nepuYcA6sRo5BzyFyym6A @ 11:01Z (animates all 5 gemini c
   5 finale bca9861f-6561-4eb1-92b4-78ba240567d1  (from bc1a7a7e, 2 friends)
 Stitch order: c6c4ff1d, e2c75872, 8a63242d, 8e678ad7, bca9861f
 
+### ✅ FINAL VIDEO DELIVERED
+Stitch job a7076f5b-c8a7-43b2-af3a-d784740f53a9 COMPLETED.
+FINAL: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260719_232310_a7076f5b-c8a7-43b2-af3a-d784740f53a9.mp4
+
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
