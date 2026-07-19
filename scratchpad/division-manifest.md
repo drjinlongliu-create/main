@@ -81,6 +81,14 @@ All 5 v4 clips ARE rendered & delivered; final MP4 pending queue drain.
   (d5a45a4f/1d283d58/d183513e) with hand-out prompt — stitches, but gemini counts less exact.
 - Backend is globally backlogged tonight; heavy jobs queue for a long time. Resume when recovered.
 
+### WORKAROUND PROVEN: topaz upscale re-encode makes seedance clips stitchable.
+- clip2 re-encode f9f53ce8 DONE; test stitch [hook, f9f53ce8] b43cd7ba COMPLETED ~60s. FIX CONFIRMED.
+- Re-encoding the other 2 seedance clips:
+    clip3 (584464fd) -> 8717da60-8844-41a8-aaf7-2fdbdcc669dc
+    clip4 (2a12455e) -> 62e15cb9-2ff0-41b4-8e17-c6e69e4771d2
+- FINAL stitch order (once re-encodes done):
+    62749bfd (gemini hook), f9f53ce8 (clip2 re-enc), 8717da60 (clip3 re-enc), 62e15cb9 (clip4 re-enc), f060fd45 (gemini finale)
+
 --- v1 (plates concept, superseded) below ---
 
 ## Reference sheet (Phase 1 gate)
