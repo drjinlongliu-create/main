@@ -19,6 +19,14 @@ Then stitch all-gemini (native, ~1min). Superseded: seedance clips ca6db1a7/5844
 their re-encodes f9f53ce8/8717da60/62e15cb9, and old finale f060fd45 — no longer used.
 Scheduled retry: trig_019nepuYcA6sRo5BzyFyym6A @ 11:01Z (animates all 5 gemini clips + stitch).
 
+### v5 CLIPS SUBMITTED (quota freed, gemini_omni, play order):
+  1 hook   c6c4ff1d-96e4-4ed8-a9d5-c4f5bea45ae0  (from 41c67cc9)
+  2 2÷2=1  e2c75872-732f-4d39-bed7-0f49782284d9  (from e1599641)
+  3 4÷2=2  8a63242d-56ba-4386-9737-a58992070a47  (from 76b19889)
+  4 6÷2=3  8e678ad7-daf1-48a9-af74-105607fd7cf1  (from f6c40cdc)
+  5 finale bca9861f-6561-4eb1-92b4-78ba240567d1  (from bc1a7a7e, 2 friends)
+Stitch order: c6c4ff1d, e2c75872, 8a63242d, 8e678ad7, bca9861f
+
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
