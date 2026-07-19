@@ -14,9 +14,10 @@ NEW all-gemini clip plan (video gen currently 429 by hung explainer jobs; schedu
   2 2÷2=1  <- gemini from still e1599641 (empty basket, 1 each)
   3 4÷2=2  <- gemini from still 76b19889 (empty basket, 2 each)
   4 6÷2=3  <- gemini from still f6c40cdc (empty basket, 3 each)
-  5 finale <- reuse existing gemini clip f060fd45 (unchanged)
-Then stitch all-gemini (native, ~1min). Superseded seedance clips ca6db1a7/584464fd/2a12455e
-and their re-encodes f9f53ce8/8717da60/62e15cb9 no longer used.
+  5 finale <- gemini from NEW still bc1a7a7e-a66b-420e-9da8-92f205937f3b (2 friends, trimmed per user; replaces old 3-friend f060fd45)
+Then stitch all-gemini (native, ~1min). Superseded: seedance clips ca6db1a7/584464fd/2a12455e,
+their re-encodes f9f53ce8/8717da60/62e15cb9, and old finale f060fd45 — no longer used.
+Scheduled retry: trig_019nepuYcA6sRo5BzyFyym6A @ 11:01Z (animates all 5 gemini clips + stitch).
 
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
