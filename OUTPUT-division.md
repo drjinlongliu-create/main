@@ -1,50 +1,72 @@
 # ➗ Generated Media — "Sharing With Freddy" (Division Intro)
 
-Claymotion division intro for a 5-year-old: Freddy the clay frog shares a
-basket of berries **equally** onto lily-pad "plates" to teach **division as
-fair sharing** (~50s, 5 clips). The mirror of the 2× multiplication video —
-here a total is *split* into equal groups instead of *built* up.
+Claymotion division intro for a 5-year-old: **division = sharing berries fairly
+between friends**. Freddy starts with a basket of berries and hands them out so
+each friend gets an equal share. ~50s, 5 clips.
 
 Built with the locked-cast, still-first workflow (see `CLAUDE.md`).
-Style: **Claymotion** (`1de0f39e-…`). Anchored to the series Freddy
-(`7e5a1860`) so he matches the counting + multiplication videos.
+Style: **Claymotion**. Anchored to the series Freddy (`7e5a1860`) so he matches
+the counting + multiplication videos.
 
 - **Division reference sheet:** `6eb77916-f6ff-470f-aca1-21d7223ebdeb`
-  (Freddy + lily-pad plate + berries, anchored to the series Freddy).
+  (Freddy + berries, anchored to the series Freddy).
+- Cast used: Freddy (green frog) shares among the **blue snail** + **teal
+  dragonfly** (÷2 clips); the finale adds the **green turtle**.
 - Clips are **silent / ambient** — overlay the Suno track
   (`suno-prompt-division.md`) for a sung version.
 
-## 🎬 Final assembled video (~50s, 1280×720)
+Base URL: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
 
-**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260718_224538_b03f3138-70b7-41d1-b671-6364c24749ea.mp4**
+## 🎞️ Final clips (play order) — the sharing story
 
-5 clips × 10s, in play order. Also in your Higgsfield Generations.
-Assembly job: `b03f3138-70b7-41d1-b671-6364c24749ea`.
+| # | Beat | Math | Clip file | Job id |
+|---|------|------|-----------|--------|
+| 1 | Hook — Freddy + 2 friends, full basket | — | `hf_20260718_235004_62749bfd-c2e2-44f5-acd2-1a7e81d6a72d.mp4` | 62749bfd |
+| 2 | Share between 2 friends → 1 each | 2 ÷ 2 = 1 | `hf_20260718_235009_ca6db1a7-7554-424e-8870-bee4ebc95a21.mp4` | ca6db1a7 |
+| 3 | Share between 2 friends → 2 each | 4 ÷ 2 = 2 | `hf_20260718_235013_584464fd-e6c0-408a-9d68-27cb9c49bfe8.mp4` | 584464fd |
+| 4 | Share between 2 friends → 3 each | 6 ÷ 2 = 3 | `hf_20260718_230534_2a12455e-d77b-4ddc-8370-d98201651a08.mp4` | 2a12455e |
+| 5 | Finale — friends cheer w/ equal shares | — | `hf_20260718_230547_f060fd45-f994-4840-b0f6-4cc19d19ec47.mp4` | f060fd45 |
 
-## 🎞️ The 5 clips (play order)
+**How the clips were made**
+- Hook + finale: `gemini_omni` single-frame animation from approved stills.
+- The 3 sharing clips: `seedance_2_0` **start→end interpolation** — the START
+  still shows the basket holding exactly N berries with friends empty-handed;
+  the END still shows the basket empty with each friend's equal share. Seedance
+  animates the hand-out in between, so both counts stay locked to approved stills.
 
-Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
+## 🧩 Stitch-ready (re-encoded) versions of the sharing clips
+`explainer_video` can't ingest raw seedance clips (codec/container mismatch —
+a stitch containing one hangs; an all-gemini stitch completes in ~45s). Fix:
+re-encode the 3 seedance clips through a topaz pass, which makes them stitchable.
 
-| # | Beat | Clip file | Job id | From still |
-|---|------|-----------|--------|-----------|
-| 1 | Hook (basket + 2 empty pads) | `hf_20260718_224347_f6a87555-d22d-4247-bdc0-824e4d47d1c1.mp4` | f6a87555 | 53d05ddf |
-| 2 | 2 ÷ 2 = 1 | `hf_20260718_224416_4e27bb5c-7a11-4722-856b-29e6a205b989.mp4` | 4e27bb5c | 2af409f4 |
-| 3 | 4 ÷ 2 = 2 | `hf_20260718_224417_9277ef5e-fb2b-4d25-a1ab-9e7b1d8f09c9.mp4` | 9277ef5e | bc0496bf |
-| 4 | 6 ÷ 3 = 2 | `hf_20260718_224421_21063464-d6a4-4619-8b2c-a4cc230511e9.mp4` | 21063464 | e3a6a381 |
-| 5 | Finale (friends cheer, equal piles) | `hf_20260718_224425_99b99fae-36c1-4d70-9cac-72ea98ff482d.mp4` | 99b99fae | 1cbb47db |
+| Sharing clip | Raw (seedance) | Re-encoded (stitch-ready) |
+|---|---|---|
+| 2 ÷ 2 = 1 | ca6db1a7 | `f9f53ce8-b190-4535-b80b-c507fa738b4e` |
+| 4 ÷ 2 = 2 | 584464fd | `8717da60-8844-41a8-aaf7-2fdbdcc669dc` |
+| 6 ÷ 2 = 3 | 2a12455e | `62e15cb9-2ff0-41b4-8e17-c6e69e4771d2` |
 
-## Stills (verified, used as animation frames)
-Reference sheet `6eb77916`, then 5 stills:
-`53d05ddf, 2af409f4, bc0496bf, e3a6a381, 1cbb47db`.
-(Still `bc0496bf` for 4÷2 was a re-roll after the first job `9aebe526` hung.)
+**Final assembly command (once Higgsfield backend is healthy):**
+```
+explainer_video(width:1280, height:720, items:[
+  62749bfd (hook),
+  f9f53ce8 (2÷2 re-enc),
+  8717da60 (4÷2 re-enc),
+  62e15cb9 (6÷2 re-enc),
+  f060fd45 (finale)
+])
+```
+Verified working: a 2-clip test [hook + f9f53ce8] stitched in ~60s.
 
-## Notes / lessons this run added
-- **`gemini_omni` needs the prompt INSIDE `params`** (like `nano_banana_pro`).
-  The first clip batch submitted with only a top-level prompt rendered with an
-  empty prompt and all 5 **failed instantly** — resubmit with `params.prompt`.
-- Assembly (`explainer_video`) is free and completed on the first try.
+## ⚠️ Final stitch status
+As of the last session the final 5-clip stitch was **blocked by a prolonged
+Higgsfield backend outage** — assembly jobs hung for hours and new submissions
+returned HTTP 429 (job quota saturated by the hung jobs). All 5 clips are
+rendered and the re-encodes are done; only the free `explainer_video` join
+remains. **Re-run the assembly command above when the backend recovers.**
 
-## To re-stitch / extend
-`explainer_video(width:1280, height:720, items:[f6a87555, 4e27bb5c, 9277ef5e,
-21063464, 99b99fae])`. To extend (8÷2=4, 9÷3=3, 10÷2=5): re-roll a still to the
-exact count → animate image-to-video → add its clip id to the ordered list.
+## Locked reference stills (verified)
+Reference sheet `6eb77916`. Sharing-clip keyframes:
+- 2÷2: start `d5a45a4f`, end `28d77e12` (v2) → empty-basket end `e1599641` (v4)
+- 4÷2: start `1d283d58`, end `76b19889`
+- 6÷2: start `d183513e`, end `f6c40cdc`
+- Hook still `32a7a140` (2 friends); finale still `7ca8f529` (3 friends).
