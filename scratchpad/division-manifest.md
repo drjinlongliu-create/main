@@ -29,7 +29,18 @@ Stitch order: c6c4ff1d, e2c75872, 8a63242d, 8e678ad7, bca9861f
 
 ### ✅ FINAL VIDEO DELIVERED
 Stitch job a7076f5b-c8a7-43b2-af3a-d784740f53a9 COMPLETED.
-FINAL: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260719_232310_a7076f5b-c8a7-43b2-af3a-d784740f53a9.mp4
+FINAL v5: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260719_232310_a7076f5b-c8a7-43b2-af3a-d784740f53a9.mp4
+
+### v6 REVISION: match all clips to clip-1 background/colours (user: bg + colour shift between clips)
+Re-rolled clips 2-5 stills anchored to clip-1 still 41c67cc9 (same pond bg + colours). Clip 1 unchanged.
+Matched stills: 2÷2 0fd4c215 · 4÷2 2e17ecec · 6÷2 03eaa92a · finale 0d678945.
+v6 gemini clips (clip 1 c6c4ff1d reused):
+  1 hook   c6c4ff1d (unchanged)
+  2 2÷2=1  ce1b5fa7-9846-4a79-9c77-3c1ab3ca334d (from 0fd4c215)
+  3 4÷2=2  e5c09ab5-2741-4baa-8c26-f8539dbe9314 (from 2e17ecec)
+  4 6÷2=3  16013d9f-fe16-4735-ad2d-804d0489bcac (from 03eaa92a)
+  5 finale 2866c7ab-0bb9-472a-8904-1b1d4ca46594 (from 0d678945)
+Stitch order: c6c4ff1d, ce1b5fa7, e5c09ab5, 16013d9f, 2866c7ab
 
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
