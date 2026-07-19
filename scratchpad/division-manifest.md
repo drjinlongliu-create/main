@@ -4,7 +4,21 @@ Series Freddy anchor: 7e5a1860-b86b-4cd8-8020-be494a96669f
 Style: Claymotion (preset 1de0f39e-c602-4b00-b54a-38440c7f63f7)
 Scope: 5 clips — hook, 2÷2=1, 4÷2=2, 6÷3=2, finale
 
-## CONCEPT REVISION (v2): share berries between FRIENDS, not plates
+## v5 REVISION (user QA on v4 stitched clips): SWITCH sharing clips to all-gemini still-motion
+User rejected seedance hand-out clips (colour drift, background drift, berry duplication) AND
+they block stitching. New approach = animate the finished-share END stills with gemini_omni
+(locks colour/bg/counts, no duplication, stitches natively — also fixes the assembly blocker).
+Fixes: clip1 hook basket -> only 2 berries (new still 41c67cc9-f3a4-41e4-b863-177089b0d02a).
+NEW all-gemini clip plan (video gen currently 429 by hung explainer jobs; scheduled retry trig_019gkWb5GfAPxYGP2FxmRoNm @10:55Z):
+  1 hook   <- gemini from still 41c67cc9 (2 berries) [PENDING user OK of still]
+  2 2÷2=1  <- gemini from still e1599641 (empty basket, 1 each)
+  3 4÷2=2  <- gemini from still 76b19889 (empty basket, 2 each)
+  4 6÷2=3  <- gemini from still f6c40cdc (empty basket, 3 each)
+  5 finale <- reuse existing gemini clip f060fd45 (unchanged)
+Then stitch all-gemini (native, ~1min). Superseded seedance clips ca6db1a7/584464fd/2a12455e
+and their re-encodes f9f53ce8/8717da60/62e15cb9 no longer used.
+
+## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
 v2 stills (pending QA → then re-animate → re-stitch):
