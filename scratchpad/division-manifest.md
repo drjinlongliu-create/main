@@ -88,6 +88,11 @@ All 5 v4 clips ARE rendered & delivered; final MP4 pending queue drain.
     clip4 (2a12455e) -> 62e15cb9-2ff0-41b4-8e17-c6e69e4771d2
 - FINAL stitch order (once re-encodes done):
     62749bfd (gemini hook), f9f53ce8 (clip2 re-enc), 8717da60 (clip3 re-enc), 62e15cb9 (clip4 re-enc), f060fd45 (gemini finale)
+- All 3 re-encodes DONE: clip2 f9f53ce8, clip3 8717da60, clip4 62e15cb9.
+- FINAL stitch jobs (both pending, backend slow tonight but config PROVEN to work):
+    6c6f5801-d2e4-45ab-892c-32f29d2ee72e
+    77fa06c4-31c7-4e38-a6f4-8b81e6751225 (resubmit)
+  Deliver whichever completes. If both stuck when backend recovers, resubmit same 5-item explainer_video.
 
 --- v1 (plates concept, superseded) below ---
 
