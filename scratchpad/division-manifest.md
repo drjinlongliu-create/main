@@ -71,6 +71,9 @@ seedance clips 3&4 DONE: 65252e5d (4÷2), 48f0342f (6÷2). Re-encoding for stitc
   clip3 4÷2 reenc: 2554a62f-1866-46ca-80b1-68a118005cb6
   clip4 6÷2 reenc: fc6fddbb-124a-46fb-a448-6cad9bf2a192
 FINAL v8 stitch order: c6c4ff1d (hook), e6494276 (2÷2 gemini), 2554a62f (4÷2 reenc), fc6fddbb (6÷2 reenc), 2866c7ab (finale)
+Both re-encodes DONE (2554a62f, fc6fddbb). Stitch jobs (stuck in backend jam):
+  288b78e9-cfc0-44c2-8487-22b9d5da3a51, 110e2ac6-4f31-4374-b89f-bdf59228ae36
+When one completes -> that's the FINAL v8 (hand-out with locked counts). Update OUTPUT-division.md + commit.
 
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
