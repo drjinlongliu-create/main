@@ -66,6 +66,12 @@ seedance clips (generate_audio false):
   4 6÷2=3  48f0342f-8715-49bd-b238-b9036ff384db  (start 2802bef1 -> end 03eaa92a)
 hook c6c4ff1d + finale 2866c7ab reused (gemini). Then topaz-reencode the 3 seedance -> explainer_video.
 
+### v8 UPDATE: clip2 seedance stuck ~45min on backend; KEEP gemini clip2 e6494276 (user never flagged clip2).
+seedance clips 3&4 DONE: 65252e5d (4÷2), 48f0342f (6÷2). Re-encoding for stitch:
+  clip3 4÷2 reenc: 2554a62f-1866-46ca-80b1-68a118005cb6
+  clip4 6÷2 reenc: fc6fddbb-124a-46fb-a448-6cad9bf2a192
+FINAL v8 stitch order: c6c4ff1d (hook), e6494276 (2÷2 gemini), 2554a62f (4÷2 reenc), fc6fddbb (6÷2 reenc), 2866c7ab (finale)
+
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
