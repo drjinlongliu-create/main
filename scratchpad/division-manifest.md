@@ -53,6 +53,9 @@ v7 hand-out clips (gemini_omni single-frame animating the hand-out):
   5 finale 2866c7ab (unchanged)
 Stitch order v7: c6c4ff1d, e6494276, 56cc5e41, d5b7d0e7, 2866c7ab
 
+### ✅ v7 FINAL DELIVERED — stitch 319bef58-96e9-4edd-aed7-2af48d622427
+https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260720_134345_319bef58-96e9-4edd-aed7-2af48d622427.mp4
+
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.

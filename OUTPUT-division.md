@@ -10,32 +10,32 @@ Cast: Freddy (green frog) shares with the **blue snail** + **teal dragonfly**.
 
 ## 🎬 FINAL assembled video (~50s, 1280×720)
 
-**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260720_062833_90cf0aa0-9427-40d7-a912-3f1fd0031235.mp4**
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260720_134345_319bef58-96e9-4edd-aed7-2af48d622427.mp4**
 
-5 clips × 10s, in play order. Assembly job `90cf0aa0-9427-40d7-a912-3f1fd0031235`.
-(v6 — clips 2–5 re-animated from background-matched stills anchored to clip 1, so
-the pond background and character colours stay consistent across all clips.)
+5 clips × 10s, in play order. Assembly job `319bef58-96e9-4edd-aed7-2af48d622427`.
+(v7 — clips 2/3/4 now animate the HAND-OUT: Freddy starts with the berries in his
+basket and gives them out to the two friends. Animated with gemini from start
+frames anchored to clip 1, so the pond background + colours stay consistent.)
 
 ## 🎞️ The 5 clips (play order)
 
 Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
 
-| # | Beat | Math | Clip file | Job id | From still |
+| # | Beat | Math | Clip file | Job id | From start still |
 |---|------|------|-----------|--------|-----------|
 | 1 | Hook — Freddy + 2 friends, basket w/ 2 berries | — | `hf_20260719_222654_c6c4ff1d-96e4-4ed8-a9d5-c4f5bea45ae0.mp4` | c6c4ff1d | 41c67cc9 |
-| 2 | Share between 2 friends → 1 each | 2 ÷ 2 = 1 | `hf_20260719_232833_ce1b5fa7-9846-4a79-9c77-3c1ab3ca334d.mp4` | ce1b5fa7 | 0fd4c215 |
-| 3 | Share between 2 friends → 2 each | 4 ÷ 2 = 2 | `hf_20260719_232837_e5c09ab5-2741-4baa-8c26-f8539dbe9314.mp4` | e5c09ab5 | 2e17ecec |
-| 4 | Share between 2 friends → 3 each | 6 ÷ 2 = 3 | `hf_20260719_232840_16013d9f-fe16-4735-ad2d-804d0489bcac.mp4` | 16013d9f | 03eaa92a |
+| 2 | Freddy hands out 2 berries, 1 each | 2 ÷ 2 = 1 | `hf_20260720_103709_e6494276-4072-48e5-902d-6616f9e27e24.mp4` | e6494276 | 6b3ca861 |
+| 3 | Freddy hands out 4 berries, 2 each | 4 ÷ 2 = 2 | `hf_20260720_..._56cc5e41-c91d-4a4b-a447-d3cf43010a63.mp4` | 56cc5e41 | 4ebb119d |
+| 4 | Freddy hands out 6 berries, 3 each | 6 ÷ 2 = 3 | `hf_20260720_103716_d5b7d0e7-8752-4ea6-b0ad-e96c87029bb7.mp4` | d5b7d0e7 | 2802bef1 |
 | 5 | Finale — 2 friends cheer w/ equal shares | — | `hf_20260719_232844_2866c7ab-0bb9-472a-8904-1b1d4ca46594.mp4` | 2866c7ab | 0d678945 |
 
-(Clips 2–5 stills 0fd4c215 / 2e17ecec / 03eaa92a / 0d678945 were re-generated
-anchored to clip-1 still 41c67cc9 to keep the background + colours identical.)
-
-**How the clips were made (v5, final):** every clip is `gemini_omni` single-frame
-still-motion from an approved still. This locks Freddy's colour, the background,
-and exact berry counts (no drift, no duplication) and stitches natively — the
-approach we landed on after the seedance hand-out clips kept drifting AND
-couldn't be stitched without a re-encode.
+**How the clips were made (v7, final):** every clip is `gemini_omni` single-frame
+animation from an approved still (locks Freddy's colour + the background, stitches
+natively). Clips 2/3/4 animate from a START frame (basket holding the berries,
+friends empty-handed, anchored to clip 1) so Freddy hands the berries out during
+the clip. Earlier still-motion versions (end-state only) are `ce1b5fa7 / e5c09ab5
+/ 16013d9f`; the seedance start→end hand-out was abandoned (colour/background
+drift, berry duplication, and couldn't stitch without a re-encode).
 
 ## Locked reference stills (verified)
 Reference sheet `6eb77916`. Clip stills:
