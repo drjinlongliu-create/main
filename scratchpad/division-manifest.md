@@ -165,3 +165,7 @@ Play order for explainer_video: f6a87555, 4e27bb5c, 9277ef5e, 21063464, 99b99fae
 3. 4÷2=2  hf_20260718_224417_9277ef5e-fb2b-4d25-a1ab-9e7b1d8f09c9.mp4
 4. 6÷3=2  hf_20260718_224421_21063464-d6a4-4619-8b2c-a4cc230511e9.mp4
 5. finale hf_20260718_224425_99b99fae-36c1-4d70-9cac-72ea98ff482d.mp4
+
+### ✅ v6 FINAL (bg/colour-consistent) DELIVERED
+Stitch 90cf0aa0-9427-40d7-a912-3f1fd0031235
+URL: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260720_062833_90cf0aa0-9427-40d7-a912-3f1fd0031235.mp4

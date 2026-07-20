@@ -10,9 +10,11 @@ Cast: Freddy (green frog) shares with the **blue snail** + **teal dragonfly**.
 
 ## 🎬 FINAL assembled video (~50s, 1280×720)
 
-**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260719_232310_a7076f5b-c8a7-43b2-af3a-d784740f53a9.mp4**
+**▶️ https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260720_062833_90cf0aa0-9427-40d7-a912-3f1fd0031235.mp4**
 
-5 clips × 10s, in play order. Assembly job `a7076f5b-c8a7-43b2-af3a-d784740f53a9`.
+5 clips × 10s, in play order. Assembly job `90cf0aa0-9427-40d7-a912-3f1fd0031235`.
+(v6 — clips 2–5 re-animated from background-matched stills anchored to clip 1, so
+the pond background and character colours stay consistent across all clips.)
 
 ## 🎞️ The 5 clips (play order)
 
@@ -21,10 +23,13 @@ Base: `https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/`
 | # | Beat | Math | Clip file | Job id | From still |
 |---|------|------|-----------|--------|-----------|
 | 1 | Hook — Freddy + 2 friends, basket w/ 2 berries | — | `hf_20260719_222654_c6c4ff1d-96e4-4ed8-a9d5-c4f5bea45ae0.mp4` | c6c4ff1d | 41c67cc9 |
-| 2 | Share between 2 friends → 1 each | 2 ÷ 2 = 1 | `hf_20260719_222704_e2c75872-732f-4d39-bed7-0f49782284d9.mp4` | e2c75872 | e1599641 |
-| 3 | Share between 2 friends → 2 each | 4 ÷ 2 = 2 | `hf_20260719_222708_8a63242d-56ba-4386-9737-a58992070a47.mp4` | 8a63242d | 76b19889 |
-| 4 | Share between 2 friends → 3 each | 6 ÷ 2 = 3 | `hf_20260719_222713_8e678ad7-daf1-48a9-af74-105607fd7cf1.mp4` | 8e678ad7 | f6c40cdc |
-| 5 | Finale — 2 friends cheer w/ equal shares | — | `hf_20260719_222717_bca9861f-6561-4eb1-92b4-78ba240567d1.mp4` | bca9861f | bc1a7a7e |
+| 2 | Share between 2 friends → 1 each | 2 ÷ 2 = 1 | `hf_20260719_232833_ce1b5fa7-9846-4a79-9c77-3c1ab3ca334d.mp4` | ce1b5fa7 | 0fd4c215 |
+| 3 | Share between 2 friends → 2 each | 4 ÷ 2 = 2 | `hf_20260719_232837_e5c09ab5-2741-4baa-8c26-f8539dbe9314.mp4` | e5c09ab5 | 2e17ecec |
+| 4 | Share between 2 friends → 3 each | 6 ÷ 2 = 3 | `hf_20260719_232840_16013d9f-fe16-4735-ad2d-804d0489bcac.mp4` | 16013d9f | 03eaa92a |
+| 5 | Finale — 2 friends cheer w/ equal shares | — | `hf_20260719_232844_2866c7ab-0bb9-472a-8904-1b1d4ca46594.mp4` | 2866c7ab | 0d678945 |
+
+(Clips 2–5 stills 0fd4c215 / 2e17ecec / 03eaa92a / 0d678945 were re-generated
+anchored to clip-1 still 41c67cc9 to keep the background + colours identical.)
 
 **How the clips were made (v5, final):** every clip is `gemini_omni` single-frame
 still-motion from an approved still. This locks Freddy's colour, the background,
