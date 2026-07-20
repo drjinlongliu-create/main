@@ -56,6 +56,16 @@ Stitch order v7: c6c4ff1d, e6494276, 56cc5e41, d5b7d0e7, 2866c7ab
 ### ✅ v7 FINAL DELIVERED — stitch 319bef58-96e9-4edd-aed7-2af48d622427
 https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260720_134345_319bef58-96e9-4edd-aed7-2af48d622427.mp4
 
+### v8: hand-out with LOCKED end counts (seedance start->end; gemini kept duplicating)
+User: gemini hand-out duplicated berries (clip3 snail->3, clip4 snail->5) even after re-rolls.
+Fix: seedance_2_0 start->end interpolation — END frame locks each friend's exact share.
+Both frames anchored to clip 1 bg. Then topaz re-encode -> stitch with gemini hook+finale.
+seedance clips (generate_audio false):
+  2 2÷2=1  dce9c261-0883-4beb-b006-30dda3f7cb73  (start 6b3ca861 -> end 0fd4c215)
+  3 4÷2=2  65252e5d-0aed-489b-806c-815feb0a9e06  (start 4ebb119d -> end 2e17ecec)
+  4 6÷2=3  48f0342f-8715-49bd-b238-b9036ff384db  (start 2802bef1 -> end 03eaa92a)
+hook c6c4ff1d + finale 2866c7ab reused (gemini). Then topaz-reencode the 3 seedance -> explainer_video.
+
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
