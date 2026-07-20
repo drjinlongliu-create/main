@@ -42,6 +42,17 @@ v6 gemini clips (clip 1 c6c4ff1d reused):
   5 finale 2866c7ab-0bb9-472a-8904-1b1d4ca46594 (from 0d678945)
 Stitch order: c6c4ff1d, ce1b5fa7, e5c09ab5, 16013d9f, 2866c7ab
 
+### v7 REVISION: add the HAND-OUT action back (gemini from START stills, bg-matched to clip 1)
+Start stills (friends empty, N berries in basket, bg matched to clip1 41c67cc9):
+  clip2 start 6b3ca861 (2 berries) · clip3 start 4ebb119d (4) · clip4 start 2802bef1 (6, single row after many re-rolls)
+v7 hand-out clips (gemini_omni single-frame animating the hand-out):
+  1 hook   c6c4ff1d (unchanged)
+  2 2÷2=1  e6494276-4072-48e5-902d-6616f9e27e24 (from 6b3ca861)
+  3 4÷2=2  56cc5e41-c91d-4a4b-a447-d3cf43010a63 (from 4ebb119d)
+  4 6÷2=3  d5b7d0e7-8752-4ea6-b0ad-e96c87029bb7 (from 2802bef1)
+  5 finale 2866c7ab (unchanged)
+Stitch order v7: c6c4ff1d, e6494276, 56cc5e41, d5b7d0e7, 2866c7ab
+
 ## (OLD) CONCEPT REVISION (v2): share berries between FRIENDS, not plates
 Divisor = number of friends (snail+dragonfly for ÷2, +turtle for ÷3). Freddy shares.
 Anchored to BOTH series cast sheet 7e5a1860 (friends/colors) + berry ref 6eb77916.
