@@ -76,7 +76,9 @@ FINAL v8 stitch order: c6c4ff1d (hook), e6494276 (2÷2 gemini), 2554a62f (4÷2 r
 Re-roll clip3 seedance with berry-conservation prompt (exactly 4 at all times, none vanish/merge):
   clip3 re-roll #1: 3b5aadd9 REJECTED by user (Freddy distributed 6; 2 vanished mid-clip). Its re-encode 3ab4c7f7 is MOOT.
   clip3 re-roll #2: 07734770 REJECTED (started with 3 berries, 1 vanished, 2 appeared). Seedance 0-for-3 on this clip — STOP using seedance for the hand-out.
-  clip3 re-roll #3: e01626a1-3c5b-445d-948b-ce0e2024b0d7 (kling3_0 pro, sound off, 17.5cr, start 4ebb119d -> end 2e17ecec, pair hand-offs; preset hijack declined f1821f84)
+  clip3 re-roll #3: e01626a1-3c5b-445d-948b-ce0e2024b0d7 DONE (kling3_0 pro 1080p, sound off, 17.5cr, start 4ebb119d -> end 2e17ecec, pair hand-offs; preset hijack declined f1821f84) — pending user QA
+  clip3 kling URL: https://d8j0ntlcm91z4.cloudfront.net/user_3FGVsNrxRrv3NuW3XlCmrTwRKNU/hf_20260723_232455_e01626a1-3c5b-445d-948b-ce0e2024b0d7.mp4
+  USER IS ASSEMBLING IN CAPCUT from clip links (clips 1,2,4,5 = v8 set; clip 3 = kling e01626a1 or fallback e5c09ab5). Oversight agent stood down.
   Fallback if kling also fails QA: v6 still-motion clip e5c09ab5 (finished share, counts guaranteed).
 When clip3 passes user QA: re-encode if needed -> v9 stitch: c6c4ff1d, e6494276, <clip3>, fc6fddbb, 2866c7ab
 NOTE: v8 stitch 35b87f43 flipped to FAILED (backend moving again, not hanging).
